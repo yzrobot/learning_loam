@@ -1,6 +1,6 @@
 # TO52 - SLAM with a 3D lidar
 
-**** ROS : How it works ****
+## ROS : How it works
 
 http://wiki.ros.org/ROS/Concepts
 
@@ -13,7 +13,7 @@ http://wiki.ros.org/ROS/Concepts
 
 
 
-**** How to build and run your catkin_workspace without Qt ****
+## How to build and run your catkin_workspace without Qt
 
 - in your repo write cmd "catkin_make" in order to build the nodes (using your cpp files)
 - launch 3 terminals, give their the source " source {...}devel/setup.bash"
@@ -23,7 +23,7 @@ http://wiki.ros.org/ROS/Concepts
 
 
 
-**** How to build and run your catkin_workspace using Qt ****
+## How to build and run your catkin_workspace using Qt
 
 - !!! Do not install Qt !!!
 - Follow this tutorial first : https://ros-industrial.github.io/ros_qtc_plugin/_source/How-to-Install-Users.html
@@ -37,8 +37,7 @@ http://wiki.ros.org/ROS/Concepts
         - with package rosbag target play and argument your bag file
 
 
-
-**** How to debug using Qt (currently not working) ****
+## How to debug using Qt (currently not working)
 
 To debug only one object could be debug (one node) : 
 - Insert your breakpoint
