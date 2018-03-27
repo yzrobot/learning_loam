@@ -38,14 +38,14 @@ http://wiki.ros.org/ROS/Concepts
 
 
 
-**** How to debug using Qt (not wrking for the moment) ****
+**** How to debug using Qt (currently not working) ****
 
-To debug only one object could be debug ( one node) : 
-    - Insert your breakpoint
-    - Menu Bar > Debug > Start Debugging > Attach to Unstarted Application...
-    - Browse to the executable (devel/lib/loam_velodyne/multiScanRegistration) by exemple
-    - select start watching
-    - run your project (Ctrl + R)
-    - depending on where the breakpoints it should be stop when it reaches one 
+To debug only one object could be debug (one node) : 
+- Insert your breakpoint
+- Menu Bar > Debug > Start Debugging > Attach to Unstarted Application...
+- Browse to the executable (devel/lib/loam_velodyne/multiScanRegistration) by exemple
+- select start watching
+- run your project (Ctrl + R)
+- depending on where the breakpoints it should be stop when it reaches one 
 
 Romain Henry, Florent Willemin, Zhi Yan, and Yassine Ruichek
