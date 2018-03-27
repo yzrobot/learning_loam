@@ -25,10 +25,10 @@ http://wiki.ros.org/ROS/Concepts
 
 ## How to build and run your catkin_workspace using Qt
 
-- !!! Do not install Qt !!!
+- !!! Don't install Qt !!!
 - Follow this tutorial first : https://ros-industrial.github.io/ros_qtc_plugin/_source/How-to-Install-Users.html
-- Open Qt, create new project by using "other application" and selecting "ros industrial" and your dedicated workspace
-- manage you compilation and run tool chain (click on project on the left)
+- Open Qt, create new project by using "other project" and selecting "ros workspace" and your dedicated workspace
+- manage your compilation and run tool chain (click on projects on the left)
 - in run, you may have :
     - 2 launch step :
         - one with package loam_volodyne and loam_velodyne launch as target (will launch all the nodes needed)
