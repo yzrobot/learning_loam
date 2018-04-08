@@ -51,14 +51,14 @@ Example for debugging node LaserOdometry : edit loam_velodyne.launch
 	 </node>
 - Compile & run in normal mode
 - A new gdb windows opens. You can use gdb tools (add breakpoint, display variable..)
-- Write run to run the node
-
-for more informations using gdb : http://wiki.ros.org/roslaunch/Tutorials/Roslaunch%20Nodes%20in%20Valgrind%20or%20GDB
+- Write run
 
 ### Valgrind 
 
 use valgrind just for finding memory leaks and array overflows
 to enable Valgring, use the same way as gdb. Just change prefix : launch-prefix="valgrind"
+
+for more informations using gdb or Valgrind : http://wiki.ros.org/roslaunch/Tutorials/Roslaunch%20Nodes%20in%20Valgrind%20or%20GDB
 
 
 ## How to debug using Qt (currently not working)
