@@ -1,6 +1,6 @@
 # TO52 - SLAM with a 3D lidar
 
-## ROS : How it works
+# ROS : How it works
 
 http://wiki.ros.org/ROS/Concepts
 
@@ -12,8 +12,8 @@ http://wiki.ros.org/ROS/Concepts
 - the node, after reporting their registrations to the master, are able to speak directly together by sending messages (request or response) to a subscribed topic ( as the services are stored in the master), it uses TCPROS (based on TCP/IP socket)
 
 
-
-## How to build and run your catkin_workspace without Qt
+## How to build and run your catkin_workspace
+### Using command line
 
 - in your repo write cmd "catkin_make" in order to build the nodes (using your cpp files)
 - launch 3 terminals, give their the source " source {...}devel/setup.bash"
@@ -23,7 +23,7 @@ http://wiki.ros.org/ROS/Concepts
 
 
 
-## How to build and run your catkin_workspace using Qt
+### Using Qt and ROS Industrial plugin
 
 - !!! Don't install Qt !!!
 - Follow this tutorial first : https://ros-industrial.github.io/ros_qtc_plugin/_source/How-to-Install-Users.html
@@ -38,7 +38,7 @@ http://wiki.ros.org/ROS/Concepts
 
 
 ## How to debug
-### using GDB command line
+### Using GDB command line
 
 One way to debug :
 GDB : 
@@ -53,7 +53,7 @@ Example for debugging node LaserOdometry : edit loam_velodyne.launch
 - A new gdb windows opens. You can use gdb tools (add breakpoint, display variable..)
 - Write run
 
-### using Valgrind 
+### Using Valgrind 
 
 use valgrind just for finding memory leaks and array overflows
 to enable Valgring, use the same way as gdb. Just change prefix : launch-prefix="valgrind"
