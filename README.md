@@ -38,7 +38,7 @@ http://wiki.ros.org/ROS/Concepts
 
 
 ## How to debug
-### Gdb
+### using GDB command line
 
 One way to debug :
 GDB : 
@@ -53,23 +53,30 @@ Example for debugging node LaserOdometry : edit loam_velodyne.launch
 - A new gdb windows opens. You can use gdb tools (add breakpoint, display variable..)
 - Write run
 
-### Valgrind 
+### using Valgrind 
 
 use valgrind just for finding memory leaks and array overflows
 to enable Valgring, use the same way as gdb. Just change prefix : launch-prefix="valgrind"
 
 for more informations using gdb or Valgrind : http://wiki.ros.org/roslaunch/Tutorials/Roslaunch%20Nodes%20in%20Valgrind%20or%20GDB
 
+### Using Qt
 
-## How to debug using Qt (currently not working)
-
-To debug only one object could be debug (one node) : 
+To debug, only one object (one node) could be debug  : 
+- Don't forget to allow ptrace ! by following these instructions :
+	- Open file: sudo gedit /etc/rc.local
+	- Add this line before the exit 0 line: echo 0 | tee /proc/sys/kernel/yama/ptrace_scope
 - Insert your breakpoint
 - Menu Bar > Debug > Start Debugging > Attach to Unstarted Application...
 - Browse to the executable (devel/lib/loam_velodyne/multiScanRegistration) by exemple
 - select start watching
 - run your project (Ctrl + R)
 - depending on where the breakpoints it should be stop when it reaches one 
+
+### Using RQT command line
+- rqt_graph will show us interactions between the nodes on the ros system
+	- The rectangles in the the window show the topics currently available on the system.
+	- The ovals are ROS nodes. Arrows leaving the node indicate the topics the node publishes, and arrows entering the node indicate the topics the node subscribes to.
 
 
 Romain Henry, Florent Willemin, Zhi Yan, and Yassine Ruichek
