@@ -9,6 +9,7 @@ int main(int argc, char **argv)
   ros::NodeHandle node;
   ros::NodeHandle privateNode("~");
 
+  loam::LaserMapping laserMapping(0.1);
 
   if (laserMapping.setup(node, privateNode)) {
     // initialization successful
