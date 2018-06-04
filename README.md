@@ -1,8 +1,8 @@
 # SLAM with a 3D lidar
 
-## 2018 UTBM TO52 project
+### 2018 UTBM TO52 project
 
-### Romain Henry, Florent Willemin, Zhi Yan, and Yassine Ruichek
+#### Romain Henry, Florent Willemin, Zhi Yan, and Yassine Ruichek
 
 # ROS : How it works
 
