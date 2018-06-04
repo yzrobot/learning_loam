@@ -1,4 +1,6 @@
-# TO52 - SLAM with a 3D lidar
+# SLAM with a 3D lidar
+
+## 2018 UTBM TO52 project
 
 # ROS : How it works
 
