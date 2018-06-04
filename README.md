@@ -2,6 +2,8 @@
 
 ## 2018 UTBM TO52 project
 
+### Romain Henry, Florent Willemin, Zhi Yan, and Yassine Ruichek
+
 # ROS : How it works
 
 http://wiki.ros.org/ROS/Concepts
@@ -79,6 +81,3 @@ To debug, only one object (one node) could be debug  :
 - rqt_graph will show us interactions between the nodes on the ros system
 	- The rectangles in the the window show the topics currently available on the system.
 	- The ovals are ROS nodes. Arrows leaving the node indicate the topics the node publishes, and arrows entering the node indicate the topics the node subscribes to.
-
-
-Romain Henry, Florent Willemin, Zhi Yan, and Yassine Ruichek
