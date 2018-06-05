@@ -48,7 +48,7 @@ To debug, only one object (one node) could be debug  :
 	- The rectangles in the the window show the topics currently available on the system.
 	- The ovals are ROS nodes. Arrows leaving the node indicate the topics the node publishes, and arrows entering the node indicate the topics the node subscribes to.
 
-##Example of using 2 Lidar for Laser Odometry and Mapping (LOAM)
+## Example of using 2 Lidar for Laser Odometry and Mapping (LOAM)
 
 <a href="https://imgflip.com/gif/2bnubu"><img src="https://i.imgflip.com/2bnubu.gif" title="made at imgflip.com"/></a>
 	
