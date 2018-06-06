@@ -51,5 +51,14 @@ To debug, only one object (one node) could be debug  :
 ## Example of using 2 Lidar for Laser Odometry and Mapping (LOAM)
 
 <a href="https://imgflip.com/gif/2bnubu"><img src="https://i.imgflip.com/2bnubu.gif" title="made at imgflip.com"/></a>
-	
+
+## Example of using octomap server for mapping
+
+### Work in progress
+
+<a href="https://imgflip.com/gif/2bpppi"><img src="https://i.imgflip.com/2bpppi.gif" title="made at imgflip.com"/></a>
+
+### Full map
+
+![alt text](https://github.com/epan-utbm/TO52/blob/master/ocotmap_full_map4.png)
 
