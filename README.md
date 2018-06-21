@@ -15,7 +15,7 @@
 <img src="https://github.com/epan-utbm/TO52/blob/master/ocotmap_full_map4.png" align="middle" width="360" height="250" /> 
 
 
-## Result of branch "entireMapNotOptimized" (it just don't clear the data structures of the LOAM algorithm)
+## Result of branch "entireMapNotOptimized" (it just doesn't clear the data structures of the LOAM algorithm)
 <img src="https://github.com/epan-utbm/TO52/blob/master/entireMapNotOptimized.jpg" width="360" height="250" align="middle"/>
 
 ## How to build and run the project with Qt
