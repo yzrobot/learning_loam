@@ -4,15 +4,19 @@
 
 ### Romain Henry, Florent Willemin, Zhi Yan, and Yassine Ruichek
 
-## Result of branch two_velodynes (it uses 2 HDL-32E LiDAR for Laser Odometry and Mapping (LOAM))
+## Result of branch "two_velodynes" (it uses 2 HDL-32E LiDAR for Laser Odometry and Mapping (LOAM))
 
-<a href="https://imgflip.com/gif/2bnubu"><img src="https://i.imgflip.com/2bnubu.gif" title="made at imgflip.com"/></a>
+<img src="https://i.imgflip.com/2bnubu.gif" title="made at imgflip.com" align="middle"/> 
 
-## Result of branch octomap (it uses octomap server for mapping)
+## Result of branch "octomap" (it uses octomap server for mapping)
 
-<a href="https://imgflip.com/gif/2bpppi"><img src="https://i.imgflip.com/2bpppi.gif" title="made at imgflip.com"/></a>
+<img src="https://i.imgflip.com/2bpppi.gif" align="middle"/>
 
-![alt text](https://github.com/epan-utbm/TO52/blob/master/ocotmap_full_map4.png)
+<img src="https://github.com/epan-utbm/TO52/blob/master/ocotmap_full_map4.png" align="middle" width="360" height="250" /> 
+
+
+## Result of branch "entireMapNotOptimized" (it just don't clear the data structures of the LOAM algorithm)
+<img src="https://github.com/epan-utbm/TO52/blob/master/entireMapNotOptimized.jpg" width="360" height="250" align="middle"/>
 
 ## How to build and run the project with Qt
 
@@ -47,4 +51,3 @@ To debug, only one object (one node) could be debug  :
 - select start watching
 - run your project (Ctrl + R)
 - depending on where the breakpoints it should be stop when it reaches one 
-
