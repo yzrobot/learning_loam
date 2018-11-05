@@ -1,6 +1,6 @@
 ## UTBM Research Projects for Engineering Students (Course Code: TO52)
 
-#### SLAM with 3D LiDAR
+#### Real-time 3D SALM using 3D lidar
 
 Romain Henry and Florent Willemin
 
