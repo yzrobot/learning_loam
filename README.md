@@ -1,8 +1,8 @@
-# SLAM with a 3D lidar
+## UTBM Research Projects for Engineering Students (Course Code: TO52)
 
-## 2018 UTBM TO52 project
+#### SLAM with 3D LiDAR
 
-### Romain Henry, Florent Willemin, Zhi Yan, and Yassine Ruichek
+Romain Henry and Florent Willemin
 
 ## Result of branch "two_velodynes" (it uses 2 HDL-32E LiDAR for Laser Odometry and Mapping (LOAM))
 
