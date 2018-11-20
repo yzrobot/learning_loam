@@ -11,14 +11,14 @@ The first solution we found out is just to comment out ```_laserCloudSurround->c
 
 #### So what about using OctoMap?
 
-[loam_velodyne_octomap.launch](launch/loam_velodyne.launch)
+[loam_velodyne_octomap.launch](loam_velodyne/launch/loam_velodyne_octomap.launch)
 
 <img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/octomap_building.gif" align="middle"/>
 <img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/octomap_fullmap.png" align="middle" width="360"/>
 
 #### Our first experience with two HDL-32E LiDAR data:
 
-[loam_velodyne_two.launch](launch/loam_velodyne_two.launch)
+[loam_velodyne_two.launch](loam_velodyne/launch/loam_velodyne_two.launch)
 
 <img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/tow_velodynes.gif" align="middle"/>
 
