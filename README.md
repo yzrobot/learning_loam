@@ -4,21 +4,23 @@
 
 Romain Henry and Florent Willemin
 
-## Result of branch "two_velodynes" (it uses 2 HDL-32E LiDAR for Laser Odometry and Mapping (LOAM))
+#### ```loam_velodyne_fullmap.launch```: it just doesn't clear the data structures of the LOAM algorithm
+<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/loam_fullmap.jpg" align="middle" width="360" height="250" /> 
 
-<img src="https://i.imgflip.com/2bnubu.gif" title="made at imgflip.com" align="middle"/> 
+#### ```loam_velodyne_fullmap.launch``` (it uses octomap server for mapping)
 
-## Result of branch "octomap" (it uses octomap server for mapping)
-
-<img src="https://i.imgflip.com/2bpppi.gif" align="middle"/>
-
+<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/octomap_building.gif" align="middle" width="360" height="250" />
 <img src="https://github.com/epan-utbm/TO52/blob/master/ocotmap_full_map4.png" align="middle" width="360" height="250" /> 
 
 
-### ```loam_velodyne_fullmap.launch```: it just doesn't clear the data structures of the LOAM algorithm
-![loam_fullmap.jpg](images/loam_fullmap.jpg)
 
-### How to build and run the project with Qt
+
+#### Result of branch "two_velodynes" (it uses 2 HDL-32E LiDAR for Laser Odometry and Mapping (LOAM))
+
+<img src="https://i.imgflip.com/2bnubu.gif" title="made at imgflip.com" align="middle"/> 
+
+
+#### How to build and run the project with Qt
 
 - Select the branch that is interesting to you
 - !!! Don't install Qt !!!
@@ -27,7 +29,7 @@ Romain Henry and Florent Willemin
 - Manage your compilation and run tool chain (click on projects on the left)
 - In run, you may have one launch step with package loam_velodyne and [loam_velodyne.launch] {depend of your branch} as target.
 
-### ROS
+#### ROS
 
 See : http://wiki.ros.org/ROS/Concepts to get informations about it.
 
@@ -37,7 +39,7 @@ See : http://wiki.ros.org/ROS/Concepts to get informations about it.
 	- start the the LiDAR record (we used a ".bag")
 	- start a node that will translate the content of the ".bag" in pointclouds
 
-### How to debug with Qt
+#### How to debug with Qt
 
 To debug, only one object (one node) could be debug  : 
 - Don't forget to allow ptrace ! by following these instructions :
