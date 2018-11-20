@@ -1047,6 +1047,7 @@ void LaserMapping::publishResult()
     _mapFrameCount = 0;
 
     // accumulate map cloud
+    // 2018_Henry_Willemin: comment out this ligne to have the full map
     _laserCloudSurround->clear();
     size_t laserCloudSurroundNum = _laserCloudSurroundInd.size();
     for (int i = 0; i < laserCloudSurroundNum; i++) {
@@ -1061,7 +1062,10 @@ void LaserMapping::publishResult()
     _downSizeFilterCorner.filter(*_laserCloudSurroundDS);
 
     // publish new map cloud
-    publishCloudMsg(_pubLaserCloudSurround, *_laserCloudSurroundDS, _timeLaserOdometry, "/camera_init");
+    // publishCloudMsg(_pubLaserCloudSurround, *_laserCloudSurroundDS, _timeLaserOdometry, "/camera_init");
+    // 2018_Henry_Willemin: draw map without color
+    publishCloudMsg(_pubLaserCloudSurround, *_laserCloudSurround /*_laserCloudSurroundDS*/, _timeLaserOdometry, "/camera_init"); // topic : laser_cloud_surround
+
   }
 
 
@@ -1070,9 +1074,11 @@ void LaserMapping::publishResult()
   for (int i = 0; i < laserCloudFullResNum; i++) {
     pointAssociateToMap(_laserCloudFullRes->points[i], _laserCloudFullRes->points[i]);
   }
-
+  
   // publish transformed full resolution input cloud
-  publishCloudMsg(_pubLaserCloudFullRes, *_laserCloudFullRes, _timeLaserOdometry, "/camera_init");
+  // publishCloudMsg(_pubLaserCloudFullRes, *_laserCloudFullRes, _timeLaserOdometry, "/camera_init");
+  // 2018_Henry_Willemin: Draw color
+  publishCloudMsg(_pubLaserCloudFullRes, *_laserCloudFullRes, _timeLaserOdometry, "/camera_init"); // topic : velodyne_cloud_registered
 
 
   // publish odometry after mapped transformations
