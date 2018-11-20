@@ -4,7 +4,7 @@
 
 Romain Henry and Florent Willemin
 
-#### ```loam_velodyne_fullmap.launch```: it just doesn't clear the data structures of the LOAM algorithm
+#### How to get a LOAM full map: Just comment out ```_laserCloudSurround->clear();``` in ```LaserMapping.cpp```. However, this method will fill up the memory since it just doesn't clear the data structures of the LOAM algorithm. For more details, please refer to our report [TO52_2018_Henry_Willemin.pdf](TO52_2018_Henry_Willemin.pdf).
 <img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/loam_fullmap.jpg" align="middle" width="360"/> 
 
 #### ```loam_velodyne_octomap.launch```: it uses octomap server for mapping
