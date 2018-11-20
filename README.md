@@ -7,18 +7,14 @@ Romain Henry and Florent Willemin
 #### ```loam_velodyne_fullmap.launch```: it just doesn't clear the data structures of the LOAM algorithm
 <img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/loam_fullmap.jpg" align="middle" width="360" height="250" /> 
 
-#### ```loam_velodyne_fullmap.launch``` (it uses octomap server for mapping)
+#### ```loam_velodyne_fullmap.launch```: it uses octomap server for mapping
 
 <img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/octomap_building.gif" align="middle" width="360" height="250" />
-<img src="https://github.com/epan-utbm/TO52/blob/master/ocotmap_full_map4.png" align="middle" width="360" height="250" /> 
+<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/octomap_fullmap.png" align="middle" width="360" height="250" /> 
 
+#### ```loam_velodyne_two.launch```: it just shows two HDL-32E LiDAR data
 
-
-
-#### Result of branch "two_velodynes" (it uses 2 HDL-32E LiDAR for Laser Odometry and Mapping (LOAM))
-
-<img src="https://i.imgflip.com/2bnubu.gif" title="made at imgflip.com" align="middle"/> 
-
+<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/tow_velodynes.gif" align="middle" width="360" height="250" />
 
 #### How to build and run the project with Qt
 
