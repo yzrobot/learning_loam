@@ -15,10 +15,10 @@ Romain Henry and Florent Willemin
 <img src="https://github.com/epan-utbm/TO52/blob/master/ocotmap_full_map4.png" align="middle" width="360" height="250" /> 
 
 
-## Result of branch "entireMapNotOptimized" (it just doesn't clear the data structures of the LOAM algorithm)
-<img src="https://github.com/epan-utbm/TO52/blob/master/entireMapNotOptimized.jpg" width="360" height="250" align="middle"/>
+### ```loam_velodyne_fullmap.launch```: it just doesn't clear the data structures of the LOAM algorithm
+![loam_fullmap.jpg](images/loam_fullmap.jpg)
 
-## How to build and run the project with Qt
+### How to build and run the project with Qt
 
 - Select the branch that is interesting to you
 - !!! Don't install Qt !!!
@@ -31,15 +31,13 @@ Romain Henry and Florent Willemin
 
 See : http://wiki.ros.org/ROS/Concepts to get informations about it.
 
-- the [loam_velodyne.launch] {depend of your branch} will :
+- the ```loam_velodyne_xxx.launch``` will :
 	- start the master (allow the nodes to find each other, exchange messages and use services)
 	- start the nodes (processes) written in cpp (or py) and compiled using gcc + rviz (a nodes)
 	- start the the LiDAR record (we used a ".bag")
 	- start a node that will translate the content of the ".bag" in pointclouds
 
-
-
-## How to debug with Qt
+### How to debug with Qt
 
 To debug, only one object (one node) could be debug  : 
 - Don't forget to allow ptrace ! by following these instructions :
