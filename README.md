@@ -5,16 +5,16 @@
 Romain Henry and Florent Willemin
 
 #### ```loam_velodyne_fullmap.launch```: it just doesn't clear the data structures of the LOAM algorithm
-<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/loam_fullmap.jpg" align="middle" width="360" height="250" /> 
+<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/loam_fullmap.jpg" align="middle" width="360"/> 
 
-#### ```loam_velodyne_fullmap.launch```: it uses octomap server for mapping
+#### ```loam_velodyne_octomap.launch```: it uses octomap server for mapping
 
-<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/octomap_building.gif" align="middle" width="360" height="250" />
-<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/octomap_fullmap.png" align="middle" width="360" height="250" /> 
+<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/octomap_building.gif" align="middle"/>
+<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/octomap_fullmap.png" align="middle" width="360"/>
 
 #### ```loam_velodyne_two.launch```: it just shows two HDL-32E LiDAR data
 
-<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/tow_velodynes.gif" align="middle" width="360" height="250" />
+<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/tow_velodynes.gif" align="middle"/>
 
 #### How to build and run the project with Qt
 
@@ -46,4 +46,4 @@ To debug, only one object (one node) could be debug  :
 - Browse to the executable (devel/lib/loam_velodyne/multiScanRegistration) by exemple
 - select start watching
 - run your project (Ctrl + R)
-- depending on where the breakpoints it should be stop when it reaches one 
+- depending on where the breakpoints it should be stop when it reaches one
