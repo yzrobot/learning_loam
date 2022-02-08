@@ -1,4 +1,4 @@
-# Learning LOAM (Course Code: TO52)
+# Learning LOAM
 
 by Romain Henry and Florent Willemin
 
