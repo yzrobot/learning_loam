@@ -5,20 +5,20 @@ by Romain Henry and Florent Willemin
 ## How to get a LOAM full map?
 The first solution we found out is just to comment out ```_laserCloudSurround->clear();``` in ```LaserMapping.cpp```. However, this trick will fill up the RAM since it just doesn't clear the data structures of the LOAM algorithm. For more details, please refer to our report [TO52_2018_Henry_Willemin.pdf](TO52_2018_Henry_Willemin.pdf).
 
-<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/loam_fullmap.jpg" align="middle" width="360"/> 
+<img src="images/loam_fullmap.jpg" align="middle" width="360"/> 
 
 ## So what about using OctoMap?
 
 [loam_velodyne_octomap.launch](loam_velodyne/launch/loam_velodyne_octomap.launch)
 
-<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/octomap_building.gif" align="middle"/>
-<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/octomap_fullmap.png" align="middle" width="360"/>
+<img src="images/octomap_building.gif" align="middle"/>
+<img src="images/octomap_fullmap.png" align="middle" width="360"/>
 
 ## Our first experience with two HDL-32E LiDAR data:
 
 [loam_velodyne_two.launch](loam_velodyne/launch/loam_velodyne_two.launch)
 
-<img src="https://github.com/epan-utbm/TO52/blob/2018_Henry_Willemin/images/tow_velodynes.gif" align="middle"/>
+<img src="images/tow_velodynes.gif" align="middle"/>
 
 ## How to build and run the project with Qt
 
